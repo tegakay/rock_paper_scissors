@@ -1,0 +1,120 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-style: normal;
+}
+
+body {
+  background: var(--radial-gradient);
+}
+
+.outline {
+  color: var(--Header-Outline);
+}
+.score {
+  color: #fff;
+  border: solid 2px hsl(217, 16%, 45%);
+  border-radius: 5px;
+  padding:  1.2rem;
+  margin-bottom: 3rem;
+}
+.score p{
+  margin: 0;
+}
+
+.scoreboard {
+  background-color: #fff;
+  color: hsl(229, 64%, 46%);
+  padding: 1rem;
+  
+}
+.scorelist{
+  padding: 1rem 0;
+  width: 100px;
+}
+.scorelist>img{
+  max-width: 100%;
+}
+.score--number{
+  font-size: 2rem
+}
+.game-option{
+  background-color: #fff;
+}
+.icon {
+  padding: 1.2rem;
+}
+.col {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 30%; */
+}
+.row {
+  display: flex;
+  flex-direction: column;
+}
+.game--row {
+  min-width: 300px;
+}
+.game--init {
+  min-width: 310px;
+  background-image: url("./images/bg-triangle.svg");
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rock {
+  border: 10px solid purple;
+  border-radius: 100px;
+  min-height: 100px;
+  min-width: 100px;
+}
+.paper {
+  border: 10px solid purple;
+  border-radius: 100px;
+  min-height: 100px;
+  min-width: 100px;
+}
+.scissors {
+  border: 10px solid purple;
+  border-radius: 100px;
+  min-height: 100px;
+  min-width: 100px;
+}
+.empty--option {
+  background-color: hsl(229, 25%, 31%);
+  border-radius: 100px;
+  min-height: 100px;
+  min-width: 100px;
+}
+
+.game--start{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.player-choice, .House--choice{
+ padding: 1rem;
+}
+
+.result{
+  color: #fff;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.button{
+  background-color: #fff;
+  color: hsl(217, 16%, 45%);
+  padding: 1rem;
+  font-size: 1rem;
+  margin-block: 1rem;
+  border-radius: 10px;
+}
